@@ -10,7 +10,9 @@ Zimbra Open Source Edition (OSE，開源版) 打包安裝檔，採用官方 zmbu
 
 Ubuntu 20.04
 ```
-apt install software-properties-common openjdk-8-jdk ant ant-optional ant-contrib ruby git maven build-essential debhelper screen
+apt install software-properties-common openjdk-8-jdk \
+  ant ant-optional ant-contrib ruby git maven build-essential \
+  debhelper screen
 ```
 
 Ubuntu 22.04
