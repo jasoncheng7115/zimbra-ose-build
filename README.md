@@ -1,6 +1,6 @@
 # zimbra_ose_build
 
-Zimbra Open Source Edition (OSE，開源版) 打包安裝檔，採用官方 zmbuild 套件庫打包而成，如只需取得二進位安裝檔，請至本專案 Release 直接下載取得。
+Zimbra Open Source Edition (OSE，開源版) 打包安裝檔，採用官方 zm-build 套件庫打包而成，如只需取得二進位安裝檔，請至本專案 Release 直接下載取得。
 
 ---
 
