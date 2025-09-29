@@ -1,7 +1,8 @@
 # zimbra-ose-build
 
 Zimbra Open Source Edition (OSE，開源版) 打包安裝檔，採用官方 zm-build 套件庫打包而成，如只需取得二進位安裝檔，請至本專案 Release 直接下載取得。
-https://github.com/jasoncheng7115/zimbra-ose-build/releases
+
+Release： https://github.com/jasoncheng7115/zimbra-ose-build/releases
 
 > 由 Jason Cheng 個人打包，採用官方標準程序及乾淨 Ubuntu Server 環境作業。
 
