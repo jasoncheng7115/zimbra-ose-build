@@ -83,6 +83,28 @@ ENV_CACHE_CLEAR_FLAG=true ./build.pl \
     --no-interactive
 ```
 
+## Zimbra 10.1.6
+```
+cd /root
+mkdir installer-build-10106
+cd installer-build-10106
+
+git clone --depth 1 --branch 10.1.6 https://github.com/Zimbra/zm-build.git
+
+cd zm-build
+
+ENV_CACHE_CLEAR_FLAG=true ./build.pl \
+    --ant-options "-DskipTests=true" \
+    --git-default-tag=10.1.6,10.1.5,10.1.4,10.1.3,10.1.2,10.1.1,10.1.0,main \
+    --build-release-no=10.1.6 \
+    --build-type=FOSS \
+    --build-no=10106 \
+    --build-release=LIBERTY \
+    --build-release-candidate=GA \
+    --build-thirdparty-server=files.zimbra.com \
+    --no-interactive
+```
+
 
 ---
 
