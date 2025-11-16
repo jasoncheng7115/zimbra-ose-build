@@ -61,7 +61,7 @@ ENV_CACHE_CLEAR_FLAG=true \
   --no-interactive
 ```
 
-## Zimbra 10.1.10 (此版本先等等，原廠還沒完全放出打包原始碼)
+## Zimbra 10.1.10
 ```
 cd /root
 mkdir installer-build-10110
